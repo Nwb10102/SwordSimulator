@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        coinText.text = "코인 : " + playerCoins;
-        failProtectionText.text = "실패방지서 : " + failProtection;
+        coinText.text = "Coins : " + playerCoins;
+        failProtectionText.text = "Fail Protection : " + failProtection;
     }
 }
