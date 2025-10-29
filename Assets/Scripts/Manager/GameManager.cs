@@ -7,11 +7,13 @@ public class GameManager : MonoBehaviour
 
     public int playerCoins = 0;
     public int failProtection = 0;
+    public int currentLevel = 0;
 
     [Space]
     [Header("Text UI Elements")]
     public TextMeshProUGUI coinText;
     public TextMeshProUGUI failProtectionText;
+    public TextMeshProUGUI swordText;
 
     void Awake()
     {
