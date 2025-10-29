@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 7153658}
   - component: {fileID: 7153657}
   - component: {fileID: 7153656}
+  - component: {fileID: 7153659}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -288,7 +289,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7153657}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7153659}
+        m_TargetAssemblyTypeName: BuySheild, Assembly-CSharp
+        m_MethodName: BuyShield
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7153657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,6 +340,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7153654}
   m_CullTransparentMesh: 1
+--- !u!114 &7153659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7153654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba03ca3ac6e40d4684fd970f6a3bf28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BuySheild
+  price: 110000
+  shieldAmount: 25
 --- !u!1 &118084656
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +504,7 @@ GameObject:
   - component: {fileID: 170289475}
   - component: {fileID: 170289474}
   - component: {fileID: 170289473}
+  - component: {fileID: 170289476}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -547,7 +575,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 170289474}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 170289476}
+        m_TargetAssemblyTypeName: BuySheild, Assembly-CSharp
+        m_MethodName: BuyShield
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &170289474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -586,6 +626,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170289471}
   m_CullTransparentMesh: 1
+--- !u!114 &170289476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170289471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba03ca3ac6e40d4684fd970f6a3bf28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BuySheild
+  price: 22500
+  shieldAmount: 5
 --- !u!1 &171699088
 GameObject:
   m_ObjectHideFlags: 0
@@ -3234,6 +3288,7 @@ GameObject:
   - component: {fileID: 1777467826}
   - component: {fileID: 1777467825}
   - component: {fileID: 1777467824}
+  - component: {fileID: 1777467827}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3304,7 +3359,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1777467825}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1777467827}
+        m_TargetAssemblyTypeName: BuySheild, Assembly-CSharp
+        m_MethodName: BuyShield
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1777467825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3343,6 +3410,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777467822}
   m_CullTransparentMesh: 1
+--- !u!114 &1777467827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777467822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba03ca3ac6e40d4684fd970f6a3bf28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BuySheild
+  price: 5000
+  shieldAmount: 1
 --- !u!1 &1787683643
 GameObject:
   m_ObjectHideFlags: 0
@@ -3640,6 +3721,7 @@ GameObject:
   - component: {fileID: 1880019074}
   - component: {fileID: 1880019073}
   - component: {fileID: 1880019072}
+  - component: {fileID: 1880019075}
   m_Layer: 5
   m_Name: BUTTON_Sell
   m_TagString: Untagged
@@ -3710,7 +3792,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1880019073}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1880019075}
+        m_TargetAssemblyTypeName: SellScript, Assembly-CSharp
+        m_MethodName: SellCurrentSword
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1880019073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3749,6 +3843,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880019070}
   m_CullTransparentMesh: 1
+--- !u!114 &1880019075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880019070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37f02d4e4a39d540a94dd29c315913e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SellScript
+  csvLoader: {fileID: 988689134}
 --- !u!1 &1945964087
 GameObject:
   m_ObjectHideFlags: 0
@@ -3971,7 +4078,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!1 &2037218423
 GameObject:

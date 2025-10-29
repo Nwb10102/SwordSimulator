@@ -30,6 +30,13 @@ public class CSVLoader : MonoBehaviour
             sword.UpgradeChance = float.Parse(row[2]);
             sword.DestroyChance = float.Parse(row[3]);
             sword.RequiredCoins = int.Parse(row[4]);
+            // CSV 마지막 열(인덱스 5)에 Price(구매/판매 가격)가 있음
+            if (row.Length > 5)
+            {
+                int price = 0;
+                int.TryParse(row[5], out price);
+                sword.Price = price;
+            }
 
             swordDataList.Add(sword);
         }
