@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: f35183093175f2148ad434d7870037a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5774767676937372449
+    second: Rogo_0
+  - first:
+      213: 7982478976327981594
+    second: Rogo_1
+  - first:
+      213: -4835874469248961242
+    second: Rogo_2
+  - first:
+      213: -7247629348186334885
+    second: Rogo_3
+  - first:
+      213: 1802451450992262759
+    second: Rogo_4
+  - first:
+      213: 5782294223948909431
+    second: Rogo_5
+  - first:
+      213: 492355174027584837
+    second: Rogo_6
+  - first:
+      213: -1842880718993535084
+    second: Rogo_7
+  - first:
+      213: 8944677956611195260
+    second: Rogo_8
+  - first:
+      213: 7492938353998494875
+    second: Rogo_9
+  - first:
+      213: 7312053256423655773
+    second: Rogo_10
+  - first:
+      213: 9156967985771283856
+    second: Rogo_11
+  - first:
+      213: 5083110274709773513
+    second: Rogo_12
+  - first:
+      213: -1477621850278973450
+    second: Rogo_13
+  - first:
+      213: -208954132468383662
+    second: Rogo_14
+  - first:
+      213: -6645922117330591381
+    second: Rogo_15
+  - first:
+      213: -6478544965957018061
+    second: Rogo_16
+  - first:
+      213: -5883805638377871822
+    second: Rogo_17
+  - first:
+      213: 356289737874015183
+    second: Rogo_18
+  - first:
+      213: -8070412074901609830
+    second: Rogo_19
+  - first:
+      213: -7073384735010320431
+    second: Rogo_20
+  - first:
+      213: 2586386033577576818
+    second: Rogo_21
+  - first:
+      213: 3647004239111089144
+    second: Rogo_22
+  - first:
+      213: 1003245325570260454
+    second: Rogo_23
+  - first:
+      213: -1369928939101787854
+    second: Rogo_24
+  - first:
+      213: -277534409189768532
+    second: Rogo_25
+  - first:
+      213: -4134664769082938058
+    second: Rogo_26
+  - first:
+      213: 7941046727679820729
+    second: Rogo_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rogo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1119
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc7db3d467ebdfa0800000000000000
+      internalID: -5774767676937372449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4e8ab3c52b31d324c934814db39f5223
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rogo_0: -5774767676937372449
+      Rogo_1: 7982478976327981594
+      Rogo_10: 7312053256423655773
+      Rogo_11: 9156967985771283856
+      Rogo_12: 5083110274709773513
+      Rogo_13: -1477621850278973450
+      Rogo_14: -208954132468383662
+      Rogo_15: -6645922117330591381
+      Rogo_16: -6478544965957018061
+      Rogo_17: -5883805638377871822
+      Rogo_18: 356289737874015183
+      Rogo_19: -8070412074901609830
+      Rogo_2: -4835874469248961242
+      Rogo_20: -7073384735010320431
+      Rogo_21: 2586386033577576818
+      Rogo_22: 3647004239111089144
+      Rogo_23: 1003245325570260454
+      Rogo_24: -1369928939101787854
+      Rogo_25: -277534409189768532
+      Rogo_26: -4134664769082938058
+      Rogo_27: 7941046727679820729
+      Rogo_28: -371060520
+      Rogo_3: -7247629348186334885
+      Rogo_4: 1802451450992262759
+      Rogo_5: 5782294223948909431
+      Rogo_6: 492355174027584837
+      Rogo_7: -1842880718993535084
+      Rogo_8: 8944677956611195260
+      Rogo_9: 7492938353998494875
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

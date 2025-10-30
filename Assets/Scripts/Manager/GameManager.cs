@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour
     [Header("Text UI Elements")]
     public TextMeshProUGUI coinText;
     public TextMeshProUGUI failProtectionText;
-    public TextMeshProUGUI swordText;
 
     void Awake()
     {
@@ -55,7 +54,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        coinText.text = "Coins : " + playerCoins;
-        failProtectionText.text = "Fail Protection : " + failProtection;
+        coinText.text = "코인 : " + playerCoins;
+        failProtectionText.text = "실패 보호 코인 : " + failProtection;
     }
 }
