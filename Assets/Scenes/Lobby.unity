@@ -1402,7 +1402,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.075
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1702,7 +1702,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ver 0.0 (25-10-31 AM 12:48)
+  m_text: 'Ver 0.1 (25-10-31 AM 7:26)
 
 '
   m_isRightToLeft: 0

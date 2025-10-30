@@ -1,11 +1,13 @@
 using UnityEngine;
-
+using UnityEngine.UI;
+using System.Collections;
 
 public class UpgradeSystem : MonoBehaviour
 {
     [SerializeField] private CSVLoader csvLoader;
 
     public AudioSource audioSource;
+    public GameObject effectTextTarget; // 여기에 Text 컴포넌트가 있어야 함
 
     private void Awake()
     {
@@ -51,6 +53,16 @@ public class UpgradeSystem : MonoBehaviour
                 GameManager.Instance.currentLevel += 1;
                 Debug.Log($"GameManager.currentLevel 증가: {GameManager.Instance.currentLevel}");
             }
+
+            if (effectTextTarget != null)
+            {
+                Text txt = effectTextTarget.GetComponent<Text>();
+                if (txt != null)
+                {
+                    StopAllCoroutines(); // 혹시 이전 효과가 남아있다면 멈춤
+                    StartCoroutine(FadeTextColor(txt, Color.green, Color.white, 0.5f));
+                }
+            }
         }
         else if (randomValue <= sword.DestroyChance)
         {
@@ -64,17 +76,52 @@ public class UpgradeSystem : MonoBehaviour
             Debug.Log("파괴되었습니다...");
             audioSource.Play();
 
-
             if (GameManager.Instance != null)
             {
                 GameManager.Instance.currentLevel = 0;
                 Debug.Log("GameManager.currentLevel 이 0으로 초기화되었습니다.");
             }
+
+            if (effectTextTarget != null)
+            {
+                Text txt = effectTextTarget.GetComponent<Text>();
+                if (txt != null)
+                {
+                    StopAllCoroutines(); // 혹시 이전 효과가 남아있다면 멈춤
+                    StartCoroutine(FadeTextColor(txt, Color.black, Color.white, 2.0f));
+                }
+            }
         }
         else
         {
             Debug.Log("강화 실패 (유지)");
+
+            // 🔴 강화 실패 시 텍스트 색상 변경 효과 실행
+            if (effectTextTarget != null)
+            {
+                Text txt = effectTextTarget.GetComponent<Text>();
+                if (txt != null)
+                {
+                    StopAllCoroutines(); // 혹시 이전 효과가 남아있다면 멈춤
+                    StartCoroutine(FadeTextColor(txt, Color.red, Color.white, 0.5f));
+                }
+            }
         }
     }
-}
 
+    // 🔹 텍스트 색상을 서서히 바꾸는 코루틴
+    private IEnumerator FadeTextColor(Text text, Color startColor, Color endColor, float duration)
+    {
+        text.color = startColor;
+        float time = 0f;
+
+        while (time < duration)
+        {
+            time += Time.deltaTime;
+            text.color = Color.Lerp(startColor, endColor, time / duration);
+            yield return null;
+        }
+
+        text.color = endColor;
+    }
+}
