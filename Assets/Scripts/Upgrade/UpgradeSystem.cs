@@ -37,6 +37,7 @@ public class UpgradeSystem : MonoBehaviour
         Debug.Log($"[{sword.Name}] 강화 시도! (ID: {swordID})");
 
         float randomValue = Random.Range(0f, 100f);
+        Debug.Log(randomValue);
         if (currentCoins < sword.RequiredCoins)
         {
             Debug.Log("코인이 부족하여 강화를 시도할 수 없습니다.");
@@ -66,6 +67,8 @@ public class UpgradeSystem : MonoBehaviour
         }
         else if (randomValue <= sword.DestroyChance)
         {
+            randomValue = Random.Range(0f, 100f);
+            Debug.Log(randomValue);
             if (destroyDefenceCoin > 0)
             {
                 GameManager.Instance.UseFailProtection();
